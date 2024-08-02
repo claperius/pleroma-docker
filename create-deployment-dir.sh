@@ -17,7 +17,7 @@ fi
 
 mkdir -p ${DIST_PLEROMA}/deployment
 
-DEPLOYMENT_FILES=".env build-pleroma-docker.sh Dockerfile docker-compose.yml README.md"
+DEPLOYMENT_FILES=".env setenv.sh build-pleroma-docker.sh Dockerfile docker-compose.yml README.md"
 
 for f in $DEPLOYMENT_FILES; do
     cp -v $f ${DIST_PLEROMA}/deployment

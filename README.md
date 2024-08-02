@@ -43,6 +43,10 @@ cd ~/pleroma/deployment
 
 Optional step - tweak the configuration in `~/pleroma/storage/config/config.exs`
 
+**Set environment variables:**
+```
+source ./setenv.sh
+```
 
 **Launch the instance - web and database:**
 ```sh
