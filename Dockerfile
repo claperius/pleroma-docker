@@ -10,7 +10,7 @@ RUN apt update \
 
 RUN apt --yes install git build-essential postgresql-client cmake libmagic-dev ash
 RUN apt --yes install elixir erlang-dev erlang-nox
-RUN apt --yes install imagemagick ffmpeg libimage-exiftool-perl
+RUN apt --yes install imagemagick ffmpeg libimage-exiftool-perl libvips-tools
 
 RUN mkdir /pleroma
 RUN addgroup --gid ${GID} pleroma 
