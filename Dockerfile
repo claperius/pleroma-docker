@@ -36,6 +36,5 @@ RUN echo "import Mix.Config" > config/prod.secret.exs \
     && mkdir release \
     && mix release --path /pleroma
 
-USER pleroma
 EXPOSE 4000
 CMD  ["/pleroma/docker-entrypoint.sh"]
